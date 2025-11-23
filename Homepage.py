@@ -21,8 +21,13 @@ Use the sidebar to navigate through different sections of the tracker.
 """) 
 
 st.sidebar.title("Navigation")
-st.sidebar.write("Welcome to my app!")
-selected_option = st.sidebar.radio("Choose a section", ["Data_entry.py", "Mentorship_Records.py"])st.sidebar.success("Select a page above to get started.")
+st.sidebar.write("Welcome")
+selected_option = st.sidebar.radio(
+    'Choose a section',
+    ['Data_entry.py', 'Mentorship_Records.py']
+)
+st.sidebar.success('Select a page above to get started.')
+
 
 st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
 
@@ -72,6 +77,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
