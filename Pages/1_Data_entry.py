@@ -5,6 +5,8 @@ import pandas as pd
 from google.oauth2 import service_account
 import datetime
 
+st.set_page_config(page_title="Data entry section")
+
 # Load credentials from secrets.toml
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 service_account_info = st.secrets["gcp_service_account"]
@@ -103,6 +105,7 @@ if submitted:
 
 
        
+
 
 
 
