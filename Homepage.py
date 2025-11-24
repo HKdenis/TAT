@@ -6,6 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from google.oauth2 import service_account
 
 
+
 st.set_page_config(
     page_title="Technical assistance tracker",
     page_icon="🧊",
@@ -23,11 +24,6 @@ Use the sidebar to navigate through different sections of the tracker.
 st.sidebar.title("Navigation")
 st.sidebar.write("Welcome")
 st.sidebar.success('Select a page above to get started.')
-
-st.page_link("Homepage.py", label="Home")
-st.page_link("pages/1_Data_entry.py", label="Data entry")
-st.page_link("page/2_Mentorship_Records.py", label="Mentorship_Records")
-
 
 st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
 
@@ -77,6 +73,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
