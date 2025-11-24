@@ -18,12 +18,7 @@ st.write("""
 Welcome to the Technical Assistance Tracker! 
 This application is designed to help you monitor and manage technical assistance visits.
 Use the sidebar to navigate through different sections of the tracker.
-""") 
-    TAT/
-    ├── Homepage.py
-    └── pages/
-        ├── 1_Data_entry.py
-        └── 2_Mentorship_Records.py
+""")     
 
 st.sidebar.title("Navigation")
 st.sidebar.write("Welcome")
@@ -82,6 +77,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
