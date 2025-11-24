@@ -12,7 +12,7 @@ import os
     page_icon="🧊",
 )
 
-st.title("🧊 Technical Assistance Tracker")
+#st.title("🧊 Technical Assistance Tracker")
 
 st.write("""
 Welcome to the Technical Assistance Tracker! 
@@ -72,6 +72,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
