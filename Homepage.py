@@ -10,7 +10,6 @@ import os
 st.set_page_config(
     page_title="Technical assistance tracker",
     page_icon="🧊",
-    layout="wide",
 )
 
 st.title("🧊 Technical Assistance Tracker")
@@ -73,6 +72,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
